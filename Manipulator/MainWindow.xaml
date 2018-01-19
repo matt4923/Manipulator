@@ -1,0 +1,47 @@
+﻿<Window x:Class="Manipulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manipulator"
+        mc:Ignorable="d"
+        Title="Manipulator" Height="350" Width="525" MinHeight="350" MinWidth="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="3,3,3,0" />
+            
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <StackPanel>
+                <Menu  Grid.Row ="0"  Name="menuMain" DockPanel.Dock="Left">
+                    <MenuItem Header="_File">
+                        <MenuItem Header="_Save Scripts As .SCP" Click="MenuItemSaveScripts_Click"></MenuItem>
+                        <MenuItem Header="_Load Scripts .SCP" Click="MenuItemLoadScripts_Click"></MenuItem>
+                        <MenuItem Header="_Version" Click="ShowVersion"></MenuItem>
+                        <MenuItem Header="_Exit" Click="MenuItemExit_Click"></MenuItem>
+                    </MenuItem>
+                </Menu>
+                <TextBlock><Bold>Format:</Bold> <Italic>Field_Name:Value,Append Location(b,e,o),Condition1=value1&amp;Condition2=value2...;</Italic></TextBlock>
+            </StackPanel>
+
+        </DockPanel>
+        <TextBox Name="txtScript" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Grid.Row="1" PreviewMouseDown="txtScript_MouseLeftButtonDown"/>
+        <DockPanel LastChildFill="True" Grid.Row="2" HorizontalAlignment="Stretch">
+            <Button DockPanel.Dock="Right" Background="GreenYellow" HorizontalAlignment="Left" VerticalAlignment="Top" Name="btnGo" Click="btnGo_Click" Width="54">
+                Go
+            </Button>
+            <Button DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Top" Name="btnBrowse" Click="btnBrowse_Click" Width="105">
+                Get Switch File
+            </Button>
+            <TextBox Name="txtPath" Margin="3" DockPanel.Dock="Left"></TextBox>
+        </DockPanel>
+    </Grid>
+</Window>

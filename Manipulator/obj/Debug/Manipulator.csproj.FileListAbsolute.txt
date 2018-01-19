@@ -1,0 +1,17 @@
+C:\Users\Matt\AppData\Local\Temporary Projects\Manipulator\bin\Debug\Manipulator.exe.config
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\bin\Debug\Manipulator.exe.config
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\bin\Debug\Manipulator.exe
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\bin\Debug\Manipulator.pdb
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\MainWindow.g.cs
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\WindowProgressBar.g.cs
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\App.g.cs
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator_MarkupCompile.cache
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator_MarkupCompile.lref
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\MainWindow.baml
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\WindowProgressBar.baml
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator.g.resources
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator.Properties.Resources.resources
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator.csproj.GenerateResource.Cache
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator.exe
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator.pdb
+C:\Users\Matt\Google Drive\SourceCode\!PROJECTS\Manipulator\Manipulator\obj\Debug\Manipulator.csprojResolveAssemblyReference.cache
